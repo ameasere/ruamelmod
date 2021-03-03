@@ -4,7 +4,7 @@ https://pypi.org/project/ruamel.std.zipfile/
 
 It is super simple, it just adds an extra parameter to the API:
 
-```
+```py
     def delete_from_zip_file(self, pattern=None, file_names=None, password=None): #Take extra parameter for password.
         """
         zip_file can be a string or a zipfile.ZipFile object, the latter will be closed
