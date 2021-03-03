@@ -43,6 +43,7 @@ def delete_from_zip_file(file_name, pattern=None, file_names=None, password=None
 It may look scary, but it is very simple. Instead of calling the original function with just a pattern or file_names array, you add an extra parameter where needed:
 
 ```py
+from ruamelmod import delete_from_zip_file
 #Code for zip file stuff goes here
 password_zip = b'testing123'
 delete_from_zip_file("test.zip", file_names=['test.txt', 'test2.txt'], password=password_zip)
