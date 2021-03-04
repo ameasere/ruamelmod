@@ -1,4 +1,4 @@
-ruamel.std.encryptedzip is a modified library that adds support for encrypted zip archives to ruamel.std.zipfile; linked below.
+ruamel.std.encryptedzip is a modified library that adds support for encrypted zip archives for Python to ruamel.std.zipfile; linked below.
 
 https://pypi.org/project/ruamel.std.zipfile/
 
